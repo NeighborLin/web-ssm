@@ -28,6 +28,7 @@ public class UserController {
     public String insert(User user){
         userService.insertUser(user);
         return "index";
+
     }
 
 
